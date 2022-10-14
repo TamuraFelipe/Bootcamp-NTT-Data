@@ -6,14 +6,14 @@
 
 <h2>Aprendizado</h2>
 <p>Conhecimentos obtidos com o Bootcamp:</p>
-<ul>
-  <li>- Páginas Web com HTML e CSS</li>
-  <li>- Primeiras Páginas Interativas com JavaScript</li>
-  <li>- Dominando Algoritmos Básicos com Desafios de Código JavaScript</li>
-  <li>- Começando no Framework Angular</li>
-  <li>- Dominando Algoritmos Intermediários com Desafios de Código JavaScript</li>
-  <li>- Princípios de Cloud Computing com AWS</li>
-</ul>
+<ol>
+  <li>Páginas Web com HTML e CSS</li>
+  <li>Primeiras Páginas Interativas com JavaScript</li>
+  <li>Dominando Algoritmos Básicos com Desafios de Código JavaScript</li>
+  <li>Começando no Framework Angular</li>
+  <li>Dominando Algoritmos Intermediários com Desafios de Código JavaScript</li>
+  <li>Princípios de Cloud Computing com AWS</li>
+</ol>
 
 
 
