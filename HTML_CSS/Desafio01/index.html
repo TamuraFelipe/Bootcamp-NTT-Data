@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Desafio HTML</title>
+</head>
+<body>
+    <h1 id="title">Introdução ao HTML na Prática</h1>
+    <hr />
+    <h2>Índice</h2>
+    <ol>
+        <li><a href="#historia">História dos computadores</a></li>
+        <li><a href="#client">O que são <i>Clients-Side</i>?</a></li>
+        <li><a href="#server">O que são <i>Servers-Side</i>?</a></li>
+        <li><a href="#estrutura">Como é uma estrutura básica de um HTML?</a></li>
+        <li><a href="#tags">Algumas Tags</a></li>
+        <li><a href="#refs">Links de referências</a></li>
+    </ol>
+    <hr />
+
+    <h2 id="historia">História dos computadores</h2>
+    <small><a href="#title">Voltar</a></small>
+    <p>John Napier (1550-1617), escocês inventor dos logaritmos, também inventou os ossos de Napier, que eram tabelas de multiplicação gravadas em bastão, o que evitava a memorização da tabuada.</p>
+    <p>A primeira máquina computadora de verdade foi construída por Wilhelm Schickard sendo capaz de somar, subtrair, multiplicar e dividir. Essa máquina foi perdida durante a guerra dos trinta anos, sendo que recentemente foi encontrada alguma documentação sobre ela. Durante muitos anos nada se soube sobre essa máquina, por isso, atribuía-se a Blaise Pascal (1623-1662) a construção da primeira máquina calculadora, que fazia apenas somas e subtrações.</p>
+    <p>A máquina Pascal foi criada com objetivo de ajudar seu pai a computar os impostos em Rouen, França. O projeto de Pascal foi bastante aprimorado pelo matemático alemão Gottfried Wilhelm Leibniz (1646-1726), que também inventou o cálculo, o qual sonhou que, um dia no futuro, todo o raciocínio pudesse ser substituído pelo girar de uma simples alavanca.</p>
+    <hr />
+
+    <h2 id="client">Client-Side</h2>
+    <small><a href="#title">Voltar</a></small>
+    <p><strong>Lado cliente</strong> (do inglês client-side), também conhecido como front-end refere-se às operações que são realizadas pelo cliente em um relacionamento cliente-servidor em uma rede de computadores.</p>
+    <p>Normalmente, um cliente é uma aplicação de computador, como um navegador web, que executa em um computador local do usuário ou em uma estação de trabalho e conecta-se a um servidor quando necessário. As operações podem ser realizadas no lado cliente pois elas necessitam de acesso a informações ou funcionalidades que estão disponíveis no cliente mas não no servidor, devido ao usuário necessitar observá-las ou fornecer entradas, ou devido ao servidor precisar de força de processamento para realizar operações em tempo hábil para todos os clientes que ele serve.</p>
+    <hr />
+
+    <h2 id="server">Server-Side</h2>
+    <small><a href="#title">Voltar</a></small>
+    <p><strong>Server-side</strong>, ou literalmente "lado do servidor", também conhecido por back-end, é um termo usado para designar operações que, em um contexto cliente-servidor, são feitas no servidor, não no cliente.</p>
+    <p>Existem várias razões para isso: desde o meio poder de processamento do servidor, até a presença de softwares ou recursos que estejam disponíveis apenas no servidor.</p>
+    <p>O oposto de server-side é o Client Side, que designa operações feitas na estação de trabalho do usuário.</p>
+    <hr />
+
+    <h2 id="estrutura">Estrutura básica de um HTML</h2>
+    <small><a href="#title">Voltar</a></small><br />
+    <p>Abaixo, como é a estrutura básica HTML</p>
+    <code>
+        &lt;!DOCTYPE html&gt; <br />
+        &lt;html lang="en"&gt;<br />
+        &nbsp;&lt;head&gt;<br />
+        &nbsp;&nbsp;   &lt;meta charset="UTF-8"&gt;<br />
+        &nbsp;&nbsp;    &lt;meta http-equiv="X-UA-Compatible" content="IE=edge"&gt;<br />
+        &nbsp;&nbsp;    &lt;meta name="viewport" content="width=device-width, initial-scale=1.0"&gt;<br />
+        &nbsp;&nbsp;    &lt;title>Document&lt;/title&gt;<br />
+        &nbsp;&lt;/head&gt;<br />
+            &lt;body&gt;<br />
+                
+            &lt;/body&gt;<br />
+            &lt;/html&gt;<br />
+    </code>
+    <hr />
+
+    <h2 id="tags">Algumas TAGs</h2>
+    <small><a href="#title">Voltar</a></small><br />
+    <ul>
+        <li>
+            <p><strong><i>&lt;header&gt; &lt;/header&gt;</i></strong> - Essas tags definem um cabeçalho. Portanto, todo conteúdo que estiver dentro dela faz parte de um cabeçalho, podendo ser utilizado dentro de outras sessões.</p>
+        </li>
+        <li>
+            <p><strong><i>&lt;main&gt; &lt;/main&gt;</i></strong> - Essas tags representam o conteúdo principal do seu corpo, ou seja, o conteúdo relacionado diretamente com o tópico central da página ou com a funcionalidade central da aplicação;</p>
+        </li>
+        <li>
+            <p><strong><i>&lt;footer&gt; &lt;/footer&gt;</i></strong> - Essas tags definem um rodapé para a página, geralmente utilizadas no final da página;</p>
+        </li>
+        <li>
+            <p><strong><i>&lt;section&gt; &lt;/section&gt;</i></strong> - Essas tags definem uma sessão para sua página;</p>
+        </li>
+        <li>
+            <p><strong><i>&lt;article&gt; &lt;/article&gt;</i></strong> - Essas tags definem um artigo da sua página. Nesse sentido, são utilizadas para separar o conteúdo da sua página. Muito utilizado principalmente por blogs ou páginas de conteúdo;</p>
+        </li>
+        <li>
+            <p><strong><i>&lt;aside&gt; &lt;/aside&gt;</i></strong> - Essas tags representam uma seção de uma página cujo conteúdo é tangencialmente relacionado ao conteúdo do seu entorno, que poderia ser considerado separado do conteúdo;</p>
+        </li>
+        <li>
+            <p><strong><i>&lt;nav&gt; &lt;/nav&gt;</i></strong> - Essa tag define um conteúdo de navegação. Portanto, é muito utilizado em conjunto com listas e na criação de menus;</p>
+        </li>
+        <li>
+            <p><strong><i>&lt;div&gt; &lt;/div&gt;</i></strong> - Define uma divisão da página. Desta forma, funciona como um container para conteúdo de fluxo. Uma vez que não possui um valor semântico, é muito utilizado para organizar melhor o conteúdo. Anteriormente ao HTML5, era utilizado no lugar das categorias acima.</p>
+        </li>
+    </ul>
+    <hr>
+
+    <h2 id="refs">Referências</h2>
+    <small><a href="#title">Voltar</a></small>
+    <p>Plataforma de ensino: <a href="https://www.dio.me/">DIO.me</a></p>
+    <p>História dos computadores: <a href="https://museudocomputador.org.br/">Museu do Computador</a> | <a href="https://pt.wikipedia.org/wiki/Wikip%C3%A9dia:P%C3%A1gina_principal">Wikipedia</a></p>
+    <p>Algumas TAGs: <a href="https://www.homehost.com.br/blog/tutoriais/tags-html/">homehost</a></p>
+</body>
+</html>
+
+
+
