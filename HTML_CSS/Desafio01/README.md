@@ -7,11 +7,10 @@
 <h2>Aprendizado</h2>
 <p>Conhecimentos obtidos com o projeto:</p>
 <ul>
-  <li>- <h1>-<h6> : As tags heading, que são utilizadas para criar cabeçalhos dentro da estrutura HTML</li>
-  <li>- <p> : Tags de parágrafos</li>
-  <li>- <ul>-<ol>-<li> : Tags de listas não-ordenadas e ordenadas com suas tags de itens.</li>
-  <li>- Classes importantes para estrutura</li>
-  <li>- <small><i><strong> : Tags para modificação de textos, como italicos e negrito.</li>
+  <li>- As tags heading, que são utilizadas para criar cabeçalhos dentro da estrutura HTML</li>
+  <li>- Tags de parágrafos</li>
+  <li>- Tags de listas não-ordenadas e ordenadas com suas tags de itens.</li>
+  <li>- Tags para modificação de textos, como italicos e negrito.</li>
 </ul>
 
 
